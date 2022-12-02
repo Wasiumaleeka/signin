@@ -1,0 +1,77 @@
+* {box-sizing: border-box}
+
+  input[type=text], input[type=password] {
+  width: 400px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid #E9EDF4;
+  border-radius: 5px;
+  background: white;
+}
+
+body {
+    font-family: 'Segoe UI';
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+h1 {
+color: #212B36; 
+font-family: 'Segoe UI' ;
+}
+label {
+    color: #ACB6BE;
+    font-family: 'Segoe UI'
+}
+
+img {
+    width: 585px; 
+    height: 550px;
+   position: end;
+}
+
+div {
+
+}
+button {
+  background-color: #3056D3;
+  color: white;
+  padding: 14px 20px;
+  margin: 35px 0;
+  border: 1px solid #E9EDF4;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  align-content: center;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.signinbtn {
+  float: left;
+  width: 400px;
+}
+
+.container {
+  margin: 458px 720px;
+  padding: 62px 95px;
+  display: grid; 
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  height: 550px;
+  width: 585px;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .signinbtn {
+    width: 100%;
+  }
+}
